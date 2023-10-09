@@ -1,0 +1,338 @@
+<div id="content">
+    <div class="content">
+        <!-- ABOUT ME -->
+        <h1>About me</h1>
+        <hr>
+        <div class="about-me">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am a highly motivated individual with a strong passion for computer science. I have experience in various programming languages such as Python, JavaScript and PHP. I am eager to enter the workforce and put my knowledge to use in the field of programming.I am confident that my skills and determination will make me a valuable asset to any team.Currently, I am working as a full stack developer intern with a paid university scholarship at a company called NetexLearning.</p>
+            <h4>Education</h4>
+            <hr>
+            <div>
+                <p>sep 2021 / jun 2023 &nbsp;&nbsp;-&nbsp;&nbsp; Desarrollo de Aplicaciones Web &nbsp;&nbsp;-&nbsp;&nbsp; Centro de Formación Profesional Afundación</p>
+                <p>sep 2018 / jun 2020 &nbsp;&nbsp;-&nbsp;&nbsp; Sistemas microinformáticos y redes &nbsp;&nbsp;-&nbsp;&nbsp; IES Fernando Wirtz Suarez</p>
+            </div>
+            <h4>Works</h4>
+            <hr>
+            <div>
+                <p>jul 2023 / NOW &nbsp;&nbsp;-&nbsp;&nbsp; Full Stack Developer on an internship with a scholarship at NetexLearning</p>
+            </div>
+        </div>
+
+
+
+        <!-- LANGUAGES -->
+        <h1>Languages</h1>
+        <hr><br><br>
+        <div class="skills">
+            <table class="languages">
+
+                <tr>
+                    <td></td>
+                    <td class="title"><h1>Oral <br> comprehension</h1></td>
+                    <td class="title"><h1>Speaking</h1></td>
+                    <td class="title"><h1>Reading <br> comprehension</h1></td>
+                    <td class="title"><h1>Writing</h1></td>
+                </tr>
+                
+                <!-- SPANISH -->
+                <tr>
+                    <td>Spanish</td>
+                    <!-- oral comprehension -->
+                    <td>
+                        <div class="skill">
+                            <svg>
+                                <circle class="bg" cx="57" cy="57" r="52" />
+                                <circle class="meter-spanish-oral-comprehension" cx="57" cy="57" r="52" />
+                            </svg>
+                        </div>
+                    </td>
+                    <!-- speaking -->
+                    <td>
+                        <div class="skill">
+                            <svg>
+                                <circle class="bg" cx="57" cy="57" r="52" />
+                                <circle class="meter-spanish-speaking" cx="57" cy="57" r="52" />
+                            </svg>
+                        </div>
+                    </td>
+                    <!-- reading comprehesion -->
+                    <td>
+                        <div class="skill">
+                            <svg>
+                                <circle class="bg" cx="57" cy="57" r="52" />
+                                <circle class="meter-spanish-reading-comprehension" cx="57" cy="57" r="52" />
+                            </svg>
+                        </div>
+                    </td>
+                    <!-- writing -->
+                    <td>
+                        <div class="skill">
+                            <svg>
+                                <circle class="bg" cx="57" cy="57" r="52" />
+                                <circle class="meter-spanish-writing" cx="57" cy="57" r="52" />
+                            </svg>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- ENGLISH -->
+                <tr>
+                    <td>English</td>
+                    <!-- oral comprehension -->
+                    <td>
+                        <div class="skill">
+                            <svg>
+                                <circle class="bg" cx="57" cy="57" r="52" />
+                                <circle class="meter-english-oral-comprehension" cx="57" cy="57" r="52" />
+                            </svg>
+                        </div>
+                    </td>
+                    <!-- speaking -->
+                    <td>
+                        <div class="skill">
+                            <svg>
+                                <circle class="bg" cx="57" cy="57" r="52" />
+                                <circle class="meter-english-speaking" cx="57" cy="57" r="52" />
+                            </svg>
+                        </div>
+                    </td>
+                    <!-- reading comprehesion -->
+                    <td>
+                        <div class="skill">
+                            <svg>
+                                <circle class="bg" cx="57" cy="57" r="52" />
+                                <circle class="meter-english-reading-comprehension" cx="57" cy="57" r="52" />
+                            </svg>
+                        </div>
+                    </td>
+                    <!-- writing -->
+                    <td>
+                        <div class="skill">
+                            <svg>
+                                <circle class="bg" cx="57" cy="57" r="52" />
+                                <circle class="meter-english-writing" cx="57" cy="57" r="52" />
+                            </svg>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- GALICIAN -->
+                <tr>
+                    <td>Galician</td>
+                    <!-- oral comprehension -->
+                    <td>
+                        <div class="skill">
+                            <svg>
+                                <circle class="bg" cx="57" cy="57" r="52" />
+                                <circle class="meter-galician-oral-comprehension" cx="57" cy="57" r="52" />
+                            </svg>
+                        </div>
+                    </td>
+                    <!-- speaking -->
+                    <td>
+                        <div class="skill">
+                            <svg>
+                                <circle class="bg" cx="57" cy="57" r="52" />
+                                <circle class="meter-galician-speaking" cx="57" cy="57" r="52" />
+                            </svg>
+                        </div>
+                    </td>
+                    <!-- reading comprehesion -->
+                    <td>
+                        <div class="skill">
+                            <svg>
+                                <circle class="bg" cx="57" cy="57" r="52" />
+                                <circle class="meter-galician-reading-comprehension" cx="57" cy="57" r="52" />
+                            </svg>
+                        </div>
+                    </td>
+                    <!-- writing -->
+                    <td>
+                        <div class="skill">
+                            <svg>
+                                <circle class="bg" cx="57" cy="57" r="52" />
+                                <circle class="meter-galician-writing" cx="57" cy="57" r="52" />
+                            </svg>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+
+        <!-- SKILLS -->
+        <h1>Skills</h1>
+        <hr><br><br>
+        <div class="skills">
+
+            <div class="skill">
+                <h1>Teamwork</h1><br>
+                <svg>
+                    <circle class="bg" cx="57" cy="57" r="52" />
+                    <circle class="meter-teamwork" cx="57" cy="57" r="52" />
+                </svg>
+            </div>
+
+            <div class="skill">
+                <h1>Problem Solving</h1><br>
+                <svg>
+                    <circle class="bg" cx="57" cy="57" r="52" />
+                    <circle class="meter-problem-solving" cx="57" cy="57" r="52" />
+                </svg>
+            </div>
+
+            <div class="skill">
+                <h1>Adaptability</h1><br>
+                <svg>
+                    <circle class="bg" cx="57" cy="57" r="52" />
+                    <circle class="meter-adaptability" cx="57" cy="57" r="52" />
+                </svg>
+            </div>
+
+            <div class="skill">
+                <h1>Creativity</h1><br>
+                <svg>
+                    <circle class="bg" cx="57" cy="57" r="52" />
+                    <circle class="meter-creativity" cx="57" cy="57" r="52" />
+                </svg>
+            </div>
+
+            <div class="skill">
+                <h1>Time Management</h1><br>
+                <svg>
+                    <circle class="bg" cx="57" cy="57" r="52" />
+                    <circle class="meter-time-management" cx="57" cy="57" r="52" />
+                </svg>
+            </div>
+
+        </div>
+
+
+
+        <!-- LANGUAGES -->
+        <h1>Informatic Languages</h1>
+        <hr><br><br>
+        <div class="skills">
+            <div class="skill">
+                <h1>Python</h1><br>
+                <svg>
+                    <circle class="bg" cx="57" cy="57" r="52" />
+                    <circle class="meter-python" cx="57" cy="57" r="52" />
+                </svg>
+            </div>
+
+            <div class="skill">
+                <h1>HTML</h1><br>
+                <svg>
+                    <circle class="bg" cx="57" cy="57" r="52" />
+                    <circle class="meter-html" cx="57" cy="57" r="52" />
+                </svg>
+            </div>
+
+            <div class="skill">
+                <h1>CSS</h1><br>
+                <svg>
+                    <circle class="bg" cx="57" cy="57" r="52" />
+                    <circle class="meter-css" cx="57" cy="57" r="52" />
+                </svg>
+            </div>
+
+            <div class="skill">
+                <h1>JS</h1><br>
+                <svg>
+                    <circle class="bg" cx="57" cy="57" r="52" />
+                    <circle class="meter-js" cx="57" cy="57" r="52" />
+                </svg>
+            </div>
+
+            <div class="skill">
+                <h1>PHP</h1><br>
+                <svg>
+                    <circle class="bg" cx="57" cy="57" r="52" />
+                    <circle class="meter-php" cx="57" cy="57" r="52" />
+                </svg>
+            </div>
+
+            <div class="skill">
+                <h1>Java</h1><br>
+                <svg>
+                    <circle class="bg" cx="57" cy="57" r="52" />
+                    <circle class="meter-java" cx="57" cy="57" r="52" />
+                </svg>
+            </div>
+
+        </div>
+
+
+
+        <!-- CISCO COURSES -->
+        <h1>Cisco Courses</h1>
+        <hr><br><br>
+        <div class="cisco-courses">
+            <table>
+                <tr>
+                    <td>
+                        <h3>Python Essentials 1</h3><br>
+                        <img src="/cisco/python1.png" alt="Python Essentials 1">
+                    </td>
+                    <td>
+                        <h3>Python Essentials 2</h3><br>
+                        <img src="/cisco/python2.png" alt="Python Essentials 2">
+                    </td>
+                    <td>
+                        <h3>Endpoint Security</h3><br>
+                        <img src="/cisco/EndpointSecurity.png" alt="Endpoint Security">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Networking <br>basics</h3><br>
+                        <img src="/cisco/NetworkingBasics.png" alt="Introducion to Networking">
+                    </td>
+                    <td>
+                        <h3>Introduction <br>to Cybersecurity</h3><br>
+                        <img src="/cisco/IntroductionSecurity.png" alt="Introduction to Cybersecurity">
+                    </td>
+                    <td>
+                        <h3>Introducion <br>to Data Science</h3><br>
+                        <img src="/cisco/IntroductionDataScience.png" alt="Introducion to Data Science">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Introduction <br>to Cisco Packet Tracer</h3><br>
+                        <img src="/cisco/PacketTracer.png" alt="Introduction to Cisco Packet Tracer">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+
+
+        <!-- COMPLEMENTARY -->
+        <h1>Complementary</h1>
+        <hr><br><br>
+        <div class="about-me">
+            <p>2017 - Car license</p>
+            <p>Food handler</p>
+            <p>Programing courses on Udemy</p>
+            <p>Intermediate proficiency in image (Adobe Photoshop) or video edit</p>
+        </div>
+    </div>
+</div>
+<!-- <script>
+    document.getElementById("menu-toggle").addEventListener("click", function() {
+        var menu = document.getElementById("menu");
+        if (menu.classList.contains("active")) {
+            menu.classList.remove("active");
+        } else {
+            menu.classList.add("active");
+        }
+    });
+    document.addEventListener("dragstart", function(event) {
+        event.preventDefault();
+    });
+</script> -->

@@ -1,0 +1,36 @@
+.content{
+    right: 5%;
+}
+
+.buttons button{
+    background-color: #1e1e1e;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 1%;
+    margin: 3vh;
+}
+.buttons button:hover{
+    border: 2px solid greenyellow;
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.about-me{
+    display: flex;
+    align-items: center;
+}
+.about-me button{
+    background-color: transparent;
+    border: none;
+    width: 5%;
+}
+.about-me p{
+    margin-left: 1%;
+}
+.about-me img{
+    width: 100%;
+}
+.about-me img:hover{
+    content: url("/copy_hover.png");
+    cursor: pointer;
+}

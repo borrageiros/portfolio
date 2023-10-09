@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+    overflow-x: hidden;
+    overflow-y: visible;
+    font-family: 'Pixelify Sans', cursive;
+    user-select: none; 
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #1e1e1e;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("/background1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+
+#menu {
+    background-color: rgb(30, 30, 30, 0%);
+    border-right: 5px solid white;
+    border-bottom: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#menu .menu-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu .menu-list li {
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+#menu .menu-list li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin: 20px;
+}
+
+#menu-toggle .bar {
+    background-color: #fff;
+    height: 3px;
+    width: 25px;
+    margin: 2px auto;
+}
+
+.active-path span{
+    color: greenyellow;
+    cursor: default;
+}
+
+.menu-list li:not(.active-path) span:hover{
+    color: greenyellow;
+    font-size: 1.5em; /* Solo para pruebas */
+}
+
+#personal_photo{
+    margin-top: 2%;
+    width: 70%;
+    border: 5px solid #414346;
+    border-radius: 50%;
+    margin-bottom: 3%;
+}
+
+#personal-photo-footer{
+    font-size: 150%;
+    color: greenyellow;
+}
+
+#content {
+    padding: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.icon {
+    width: 6vh;
+    height: 6vh;
+    margin: 0 9px; /* Ajusta el margen aquí */
+    background-size: cover;
+    transition: all 0.3s ease; /* Cambia 'transform' por 'all' */
+}
+
+.icon:hover {
+    width: 6.6vh; /* Aumenta el tamaño aquí */
+    height: 6.6vh;
+    margin: 0 7px; /* Ajusta el margen aquí */
+}
+
+
+.github {
+    background-image: url("/rrss/github.png");
+}
+
+.github:hover {
+    background-image: url("/rrss/github_hover.png");
+}
+
+.linkedln {
+    background-image: url("/rrss/linkedln.png");
+}
+
+.linkedln:hover {
+    background-image: url("/rrss/linkedln_hover.png");
+}
+
+.credly {
+    background-image: url("/rrss/credly.png");
+}
+
+.credly:hover {
+    background-image: url("/rrss/credly_hover.png");
+}
+
+
+
+.name{
+    left: 35%;
+    top: 40%;
+    position: absolute;
+    border-right: .15em solid greenyellow;
+    white-space: nowrap;
+    animation: typing 8s forwards;
+    font-size: 1.6rem;
+    animation-delay: 1s;
+    visibility:hidden;
+}
+.who{
+    left: 40%;
+    top: 50%;
+    position: absolute;
+    border-right: .15em solid greenyellow;
+    white-space: nowrap;
+    animation: typing 8s forwards;
+    animation-delay: 2s;
+    visibility:hidden;
+}
+@keyframes typing {
+    from { width: 0; visibility:visible; }
+    to { width: 100%; visibility:visible; }
+}
+
+
+
+/* (PC) */
+@media (min-width: 768px) {
+    #personal_photo{
+        margin-top: 20%;
+    }
+    #menu {
+        width: 30vh;
+        height: 100vh;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+
+    #content {
+        padding-top: 10vh;
+        margin-left: 35vh;
+        padding-left: 20px;
+        height: 100vh;
+    }
+}
+
+/* Phone */
+@media (max-width: 767px) {
+
+    #home{
+        display: none;
+    }
+
+    .name{
+        display: none;
+    }
+
+    .who{
+        display: none;
+    }
+
+    .home-item {
+        display: none;
+    }
+
+    .social-icons{
+        display: none;
+        margin-top: 0px;
+    }
+
+    #menu.active {
+        height: 100vh;
+    }
+    
+    #menu.active .social-icons{
+        display: flex;
+    }
+
+    .menu-content {
+        overflow: hidden;
+        max-height: 1000px;
+        transition: max-height 0.5s ease-out;
+    }
+    #menu.active .menu-content {
+        max-height: 100%;
+    }
+
+    #personal_photo, #personal-photo-footer {
+        display: none;
+        width: 50%;
+    }
+
+    #menu.active #personal_photo, #menu.active #personal-photo-footer {
+        display: block;
+    }
+
+    #menu {
+        justify-content: center;
+        border-bottom: 5px solid white;
+        border-right: none;
+    }
+
+    #menu .menu-list {
+        display: none;
+        list-style-type: none;
+    }
+
+    #menu-toggle {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #menu.active .menu-list {
+        display: block;
+    }
+}
