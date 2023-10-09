@@ -2,7 +2,7 @@
     import { page } from '$app/stores';
     let currentPath;
     $: currentPath = $page.url.pathname  ;
-    let menuActive = $page.url.pathname == '/home' && true;
+    let menuActive = $page.url.pathname == '/' && true;
 
     function toggleMenu() {
         menuActive = !menuActive;

@@ -19,6 +19,11 @@ body {
     background-color: #1e1e1e;
 }
 
+body::after {
+    content: url("/rrss/github_hover.png") url("/rrss/linkedln_hover.png") url("/rrss/credly_hover.png");
+    display: none;
+}
+
 body::before {
     content: "";
     position: fixed;
@@ -244,6 +249,11 @@ body::before {
     #personal_photo, #personal-photo-footer {
         display: none;
         width: 50%;
+        font-size: 1.5rem;
+    }
+
+    #personal_photo{
+        margin-top: 5vh;
     }
 
     #menu.active #personal_photo, #menu.active #personal-photo-footer {
@@ -251,9 +261,30 @@ body::before {
     }
 
     #menu {
-        justify-content: center;
         border-bottom: 5px solid white;
         border-right: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        border-bottom: 5px solid white;
+        border-right: none;
+        background-color: rgba(30, 30, 30, 0.95);
+    }
+
+    #menu::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("/background1.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(5px);
+        z-index: -1;
     }
 
     #menu .menu-list {

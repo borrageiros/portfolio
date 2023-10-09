@@ -1,9 +1,9 @@
 <div id="content">
     <div class="content">
         <!-- ABOUT ME -->
-        <h1>About me</h1>
-        <hr>
         <div class="about-me">
+            <h1>About me</h1>
+            <hr>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am a highly motivated individual with a strong passion for computer science. I have experience in various programming languages such as Python, JavaScript and PHP. I am eager to enter the workforce and put my knowledge to use in the field of programming.I am confident that my skills and determination will make me a valuable asset to any team.Currently, I am working as a full stack developer intern with a paid university scholarship at a company called NetexLearning.</p>
             <h4>Education</h4>
             <hr>
@@ -22,7 +22,7 @@
 
         <!-- LANGUAGES -->
         <h1>Languages</h1>
-        <hr><br><br>
+        <hr>
         <div class="skills">
             <table class="languages">
 

@@ -33,6 +33,7 @@ svg {
 /* ABOUT ME */
 .about-me{
     margin-bottom: 10vh;
+    margin-top: 10vh;
 }
 .about-me h4, p:first-child{
     margin-top: 2vh;
@@ -44,7 +45,6 @@ svg {
 .languages{
     width: 100%;
     text-align: center;
-    margin-left: 10vh;
 }
 .languages .title{
     padding: 2vh;
