@@ -34,8 +34,8 @@
     </div>
     <div class="menu-content">
         <ul class="menu-list">
-            <li id="home" class:active-path={currentPath === '/home'}>
-                <a href="/home" on:click={toggleMenu}><span>Home</span></a>
+            <li id="home" class:active-path={currentPath === '/'}>
+                <a href="/" on:click={toggleMenu}><span>Home</span></a>
             </li>
             <li class:active-path={currentPath === '/about'}>
                 <a href="/about" on:click={toggleMenu}><span>About</span></a>
