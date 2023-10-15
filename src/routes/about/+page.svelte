@@ -1,20 +1,23 @@
+<script>
+    import SkillMeter from '../../components/SkillMeter.svelte';
+</script>
 <div id="content">
     <div class="content">
         <!-- ABOUT ME -->
         <div class="about-me">
             <h1>About me</h1>
             <hr>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am a highly motivated individual with a strong passion for computer science. I have experience in various programming languages such as Python, JavaScript and PHP. I am eager to enter the workforce and put my knowledge to use in the field of programming.I am confident that my skills and determination will make me a valuable asset to any team.Currently, I am working as a full stack developer intern with a paid university scholarship at a company called NetexLearning.</p>
+            <pre>   I am a highly motivated individual with a strong passion for computer science. I have experience in various programming languages such as Python, JavaScript and PHP. I am eager to enter the workforce and put my knowledge to use in the field of programming.I am confident that my skills and determination will make me a valuable asset to any team.Currently, I am working as a full stack developer intern with a paid university scholarship at a company called NetexLearning.</pre>
             <h4>Education</h4>
             <hr>
             <div>
-                <p>sep 2021 / jun 2023 &nbsp;&nbsp;-&nbsp;&nbsp; Desarrollo de Aplicaciones Web &nbsp;&nbsp;-&nbsp;&nbsp; Centro de Formación Profesional Afundación</p>
-                <p>sep 2018 / jun 2020 &nbsp;&nbsp;-&nbsp;&nbsp; Sistemas microinformáticos y redes &nbsp;&nbsp;-&nbsp;&nbsp; IES Fernando Wirtz Suarez</p>
+                <pre>sep 2021 / jun 2023  -  Desarrollo de Aplicaciones Web  -  Centro de Formación Profesional Afundación</pre>
+                <pre>sep 2018 / jun 2020  -  Sistemas microinformáticos y redes  -  IES Fernando Wirtz Suarez</pre>
             </div>
             <h4>Works</h4>
             <hr>
             <div>
-                <p>jul 2023 / NOW &nbsp;&nbsp;-&nbsp;&nbsp; Full Stack Developer on an internship with a scholarship at NetexLearning</p>
+                <pre>jul 2023 / NOW  -  Full Stack Developer on an internship with a scholarship at NetexLearning</pre>
             </div>
         </div>
 
@@ -41,8 +44,7 @@
                     <td>
                         <div class="skill">
                             <svg>
-                                <circle class="bg" cx="57" cy="57" r="52" />
-                                <circle class="meter-spanish-oral-comprehension" cx="57" cy="57" r="52" />
+                                <SkillMeter percentage={100} />
                             </svg>
                         </div>
                     </td>
@@ -50,8 +52,7 @@
                     <td>
                         <div class="skill">
                             <svg>
-                                <circle class="bg" cx="57" cy="57" r="52" />
-                                <circle class="meter-spanish-speaking" cx="57" cy="57" r="52" />
+                                <SkillMeter percentage={100} />
                             </svg>
                         </div>
                     </td>
@@ -59,8 +60,7 @@
                     <td>
                         <div class="skill">
                             <svg>
-                                <circle class="bg" cx="57" cy="57" r="52" />
-                                <circle class="meter-spanish-reading-comprehension" cx="57" cy="57" r="52" />
+                                <SkillMeter percentage={100} />
                             </svg>
                         </div>
                     </td>
@@ -68,8 +68,7 @@
                     <td>
                         <div class="skill">
                             <svg>
-                                <circle class="bg" cx="57" cy="57" r="52" />
-                                <circle class="meter-spanish-writing" cx="57" cy="57" r="52" />
+                                <SkillMeter percentage={100} />
                             </svg>
                         </div>
                     </td>
@@ -82,8 +81,7 @@
                     <td>
                         <div class="skill">
                             <svg>
-                                <circle class="bg" cx="57" cy="57" r="52" />
-                                <circle class="meter-english-oral-comprehension" cx="57" cy="57" r="52" />
+                                <SkillMeter percentage={75} />
                             </svg>
                         </div>
                     </td>
@@ -91,8 +89,7 @@
                     <td>
                         <div class="skill">
                             <svg>
-                                <circle class="bg" cx="57" cy="57" r="52" />
-                                <circle class="meter-english-speaking" cx="57" cy="57" r="52" />
+                                <SkillMeter percentage={35} />
                             </svg>
                         </div>
                     </td>
@@ -100,8 +97,7 @@
                     <td>
                         <div class="skill">
                             <svg>
-                                <circle class="bg" cx="57" cy="57" r="52" />
-                                <circle class="meter-english-reading-comprehension" cx="57" cy="57" r="52" />
+                                <SkillMeter percentage={75} />
                             </svg>
                         </div>
                     </td>
@@ -109,8 +105,7 @@
                     <td>
                         <div class="skill">
                             <svg>
-                                <circle class="bg" cx="57" cy="57" r="52" />
-                                <circle class="meter-english-writing" cx="57" cy="57" r="52" />
+                                <SkillMeter percentage={70} />
                             </svg>
                         </div>
                     </td>
@@ -123,8 +118,7 @@
                     <td>
                         <div class="skill">
                             <svg>
-                                <circle class="bg" cx="57" cy="57" r="52" />
-                                <circle class="meter-galician-oral-comprehension" cx="57" cy="57" r="52" />
+                                <SkillMeter percentage={100} />
                             </svg>
                         </div>
                     </td>
@@ -132,8 +126,7 @@
                     <td>
                         <div class="skill">
                             <svg>
-                                <circle class="bg" cx="57" cy="57" r="52" />
-                                <circle class="meter-galician-speaking" cx="57" cy="57" r="52" />
+                                <SkillMeter percentage={80} />
                             </svg>
                         </div>
                     </td>
@@ -141,8 +134,7 @@
                     <td>
                         <div class="skill">
                             <svg>
-                                <circle class="bg" cx="57" cy="57" r="52" />
-                                <circle class="meter-galician-reading-comprehension" cx="57" cy="57" r="52" />
+                                <SkillMeter percentage={100} />
                             </svg>
                         </div>
                     </td>
@@ -150,8 +142,7 @@
                     <td>
                         <div class="skill">
                             <svg>
-                                <circle class="bg" cx="57" cy="57" r="52" />
-                                <circle class="meter-galician-writing" cx="57" cy="57" r="52" />
+                                <SkillMeter percentage={65} />
                             </svg>
                         </div>
                     </td>
@@ -169,40 +160,35 @@
             <div class="skill">
                 <h1>Teamwork</h1><br>
                 <svg>
-                    <circle class="bg" cx="57" cy="57" r="52" />
-                    <circle class="meter-teamwork" cx="57" cy="57" r="52" />
+                    <SkillMeter percentage={65} />
                 </svg>
             </div>
 
             <div class="skill">
                 <h1>Problem Solving</h1><br>
                 <svg>
-                    <circle class="bg" cx="57" cy="57" r="52" />
-                    <circle class="meter-problem-solving" cx="57" cy="57" r="52" />
+                    <SkillMeter percentage={90} />
                 </svg>
             </div>
 
             <div class="skill">
                 <h1>Adaptability</h1><br>
                 <svg>
-                    <circle class="bg" cx="57" cy="57" r="52" />
-                    <circle class="meter-adaptability" cx="57" cy="57" r="52" />
+                    <SkillMeter percentage={90} />
                 </svg>
             </div>
 
             <div class="skill">
                 <h1>Creativity</h1><br>
                 <svg>
-                    <circle class="bg" cx="57" cy="57" r="52" />
-                    <circle class="meter-creativity" cx="57" cy="57" r="52" />
+                    <SkillMeter percentage={85} />
                 </svg>
             </div>
 
             <div class="skill">
                 <h1>Time Management</h1><br>
                 <svg>
-                    <circle class="bg" cx="57" cy="57" r="52" />
-                    <circle class="meter-time-management" cx="57" cy="57" r="52" />
+                    <SkillMeter percentage={75} />
                 </svg>
             </div>
 
@@ -217,48 +203,42 @@
             <div class="skill">
                 <h1>Python</h1><br>
                 <svg>
-                    <circle class="bg" cx="57" cy="57" r="52" />
-                    <circle class="meter-python" cx="57" cy="57" r="52" />
+                    <SkillMeter percentage={65} />
                 </svg>
             </div>
 
             <div class="skill">
                 <h1>HTML</h1><br>
                 <svg>
-                    <circle class="bg" cx="57" cy="57" r="52" />
-                    <circle class="meter-html" cx="57" cy="57" r="52" />
+                    <SkillMeter percentage={90} />
                 </svg>
             </div>
 
             <div class="skill">
                 <h1>CSS</h1><br>
                 <svg>
-                    <circle class="bg" cx="57" cy="57" r="52" />
-                    <circle class="meter-css" cx="57" cy="57" r="52" />
+                    <SkillMeter percentage={75} />
                 </svg>
             </div>
 
             <div class="skill">
                 <h1>JS</h1><br>
                 <svg>
-                    <circle class="bg" cx="57" cy="57" r="52" />
-                    <circle class="meter-js" cx="57" cy="57" r="52" />
+                    <SkillMeter percentage={75} />
                 </svg>
             </div>
 
             <div class="skill">
                 <h1>PHP</h1><br>
                 <svg>
-                    <circle class="bg" cx="57" cy="57" r="52" />
-                    <circle class="meter-php" cx="57" cy="57" r="52" />
+                    <SkillMeter percentage={30} />
                 </svg>
             </div>
 
             <div class="skill">
                 <h1>Java</h1><br>
                 <svg>
-                    <circle class="bg" cx="57" cy="57" r="52" />
-                    <circle class="meter-java" cx="57" cy="57" r="52" />
+                    <SkillMeter percentage={30} />
                 </svg>
             </div>
 
@@ -323,16 +303,3 @@
         </div>
     </div>
 </div>
-<!-- <script>
-    document.getElementById("menu-toggle").addEventListener("click", function() {
-        var menu = document.getElementById("menu");
-        if (menu.classList.contains("active")) {
-            menu.classList.remove("active");
-        } else {
-            menu.classList.add("active");
-        }
-    });
-    document.addEventListener("dragstart", function(event) {
-        event.preventDefault();
-    });
-</script> -->
