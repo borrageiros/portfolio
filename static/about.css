@@ -15,7 +15,9 @@ svg {
 /* ABOUT ME */
 .about-me{
     margin-bottom: 10vh;
-    margin-top: 10vh;
+}
+.about-me, hr{
+    margin-bottom: 2vh;
 }
 .about-me h4, p:first-child{
     margin-top: 2vh;

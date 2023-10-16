@@ -1,7 +1,6 @@
 <script>
     import SkillMeter from '../../components/SkillMeter.svelte';
 </script>
-<div id="content">
     <div class="content">
         <!-- ABOUT ME -->
         <div class="about-me">
@@ -17,7 +16,7 @@
             <h4>Works</h4>
             <hr>
             <div>
-                <pre>jul 2023 / NOW  -  Full Stack Developer on an internship with a scholarship at NetexLearning</pre>
+                <pre>jul 2023 / NOW  -  Full Stack Developer on an internship with a scholarship at <a href="https://www.netexlearning.com/">NetexLearning</a></pre>
             </div>
         </div>
 
@@ -294,12 +293,11 @@
 
         <!-- COMPLEMENTARY -->
         <h1>Complementary</h1>
-        <hr><br><br>
-        <div class="about-me">
+        <hr>
+        <div>
             <p>2017 - Car license</p>
             <p>Food handler</p>
             <p>Programing courses on Udemy</p>
             <p>Intermediate proficiency in image (Adobe Photoshop) or video edit</p>
         </div>
-    </div>
 </div>

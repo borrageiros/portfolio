@@ -14,7 +14,7 @@
     $: age = getAge(birthDate);
 </script>
 
-<div id="content">
+<div class="content">
     <div class="info">
         <h1 class="name">Adrián Borrageiros Mourelos, {age} years old</h1>
         <h2 class="who">Full stack developer from Spain</h2>

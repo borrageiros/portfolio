@@ -87,7 +87,6 @@ body::before {
 
 .menu-list li:not(.active-path) span:hover{
     color: greenyellow;
-    font-size: 1.5em; /* Solo para pruebas */
 }
 
 #personal_photo{
@@ -103,8 +102,8 @@ body::before {
     color: greenyellow;
 }
 
-#content {
-    padding: 20px;
+.content > div {
+    margin-bottom: 5vh;
 }
 
 .social-icons {
@@ -197,7 +196,7 @@ body::before {
         top: 0;
     }
 
-    #content {
+    .content {
         padding-top: 10vh;
         margin-left: 35vh;
         padding-left: 20px;
