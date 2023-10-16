@@ -9,6 +9,10 @@ svg {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 10vh;
+}
+.skill{
+    text-align: center;
 }
 
 
@@ -38,10 +42,6 @@ pre {
 .languages .title{
     padding: 2vh;
 }
-.skills{
-    margin-bottom: 10vh;
-}
-
 
 /* CISCO COURSES */
 .cisco-courses table{
@@ -73,6 +73,15 @@ pre {
 
 
 @media only screen and (max-width: 768px) {
+    pre{
+        margin-left: 4vh;
+    }
+    h1, h4{
+        margin-left: 1vh;
+    }
+    .content{
+        margin-top: 15vh;
+    }
     .languages td, .cisco-courses td {
         font-size: 0.8em;
     }
@@ -80,7 +89,9 @@ pre {
         flex-direction: column;
         align-items: center;
     }
-
+    .skills svg {
+        margin-bottom: 7vh;
+    }
     .languages, .cisco-courses table {
         width: 100%;
         overflow-x: auto;
