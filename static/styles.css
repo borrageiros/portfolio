@@ -38,6 +38,9 @@ body::before {
     z-index: -1;
 }
 
+.map-icon path {
+    fill: greenyellow;
+}
 
 #menu {
     background-color: rgb(30, 30, 30, 0%);

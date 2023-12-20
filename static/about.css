@@ -44,28 +44,30 @@ pre {
 }
 
 /* CISCO COURSES */
-.cisco-courses table{
+.certifications:first-child(table){
     margin-bottom: 10vh;
+}
+.certifications table{
     width: 100%;
     text-align: center;
 }
-.cisco-courses td{
+.certifications td{
     padding-top: 3%;
 }
-.cisco-courses img{
+.certifications img{
     width: 150px;
 }
 
-.languages, .cisco-courses {
+.languages, .certifications {
     overflow-x: auto;
     display: block;
 }
-.cisco-courses img {
+.certifications img {
     width: 100%;
     max-width: 150px;
     height: auto;
 }
-.languages td, .cisco-courses td {
+.languages td, .certifications td {
     padding: 5px;
     margin: 0;
 }
@@ -82,7 +84,7 @@ pre {
     .content{
         margin-top: 15vh;
     }
-    .languages td, .cisco-courses td {
+    .languages td, .certifications td {
         font-size: 0.8em;
     }
     .skills {
@@ -92,7 +94,7 @@ pre {
     .skills svg {
         margin-bottom: 7vh;
     }
-    .languages, .cisco-courses table {
+    .languages, .certifications table {
         width: 100%;
         overflow-x: auto;
     }
