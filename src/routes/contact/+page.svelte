@@ -1,3 +1,41 @@
+<style>
+    .content{
+        right: 5%;
+    }
+
+    .buttons button{
+        background-color: #1e1e1e;
+        border: 2px solid white;
+        border-radius: 25px;
+        padding: 1%;
+        margin: 3vh;
+    }
+    .buttons button:hover{
+        border: 2px solid greenyellow;
+        color: greenyellow;
+        cursor: pointer;
+    }
+
+    .email{
+        display: flex;
+        align-items: center;
+    }
+    .email button{
+        background-color: transparent;
+        border: none;
+        width: 5%;
+    }
+    .email p{
+        margin-left: 1%;
+    }
+    .email img{
+        width: 100%;
+    }
+    .email img:hover{
+        content: url("/copy_hover.png");
+        cursor: pointer;
+    }
+</style>
 <div id="content">
     <div class="content">
 
