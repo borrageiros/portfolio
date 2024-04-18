@@ -39,7 +39,7 @@
     }
     .whoiam {
         white-space: nowrap;
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 30px;
     }
     .whoiam > span{
