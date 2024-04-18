@@ -157,35 +157,6 @@ body::before {
 }
 
 
-
-.name{
-    left: 35%;
-    top: 40%;
-    position: absolute;
-    border-right: .15em solid greenyellow;
-    white-space: nowrap;
-    animation: typing 8s forwards;
-    font-size: 1.6rem;
-    animation-delay: 1s;
-    visibility:hidden;
-}
-.who{
-    left: 40%;
-    top: 50%;
-    position: absolute;
-    border-right: .15em solid greenyellow;
-    white-space: nowrap;
-    animation: typing 8s forwards;
-    animation-delay: 2s;
-    visibility:hidden;
-}
-@keyframes typing {
-    from { width: 0; visibility:visible; }
-    to { width: 100%; visibility:visible; }
-}
-
-
-
 /* (PC) */
 @media (min-width: 768px) {
     #personal_photo{
@@ -211,14 +182,6 @@ body::before {
 @media (max-width: 767px) {
 
     #home{
-        display: none;
-    }
-
-    .name{
-        display: none;
-    }
-
-    .who{
         display: none;
     }
 

@@ -12,7 +12,7 @@
     </div>
     <br><br><hr>
     <div class="buttons">
-        <a href="mailto:email@example.com"><button>SEND MAIL</button></a>
+        <a href="mailto:adrianborrageirosmourelos@gmail.com"><button>SEND MAIL</button></a>
         <a href="/whatsapp"><button>WHATSAPP</button></a>
     </div>
 </div>
